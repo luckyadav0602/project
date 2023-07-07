@@ -1,0 +1,123 @@
+body{
+    background-color: aqua;
+    margin: 0; 
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    font-family: sans-serif;
+    background-size: cover;
+    background-repeat: no-repeat;
+        
+}
+        
+        
+h1 {
+    text-transform: uppercase; 
+    letter-spacing: 4px; 
+    font-size: 14px; 
+    text-align: center;
+}
+        
+.clock{
+    display: flex;
+        
+}
+        
+.clock div{    
+    margin: 5px;
+        
+}
+        
+.clock span{
+    width: 100px;
+    height: 80px; 
+    background-color: black;
+    color: white; 
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    font-size: 50px;
+    text-shadow: #08a4a7;
+}
+
+
+.clock .text{
+    height: 30px; 
+    font-size: 10px;
+    text-transform: uppercase; 
+    letter-spacing: 2px; 
+    background-color: #08a4a7;
+}
+    
+.clock #ampm{ 
+    margin-top: 30px;
+    position: absolute;
+    width: 60px;
+    height: 30px;
+    padding: 5px;
+    font-size: 20px;
+    
+}
+    
+#custom{
+    display: block;
+    font-size: 20px; 
+    right: 0;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 30px; 
+    margin-left: 30px;
+    
+}
+    
+#option
+{
+    background-color: black;
+    color: white;
+    position: absolute;
+    display: none;
+    top: 0;
+    right: 0;
+    margin: auto;
+    padding: 5px;
+}
+
+#option .bg{
+    height: 50px;
+    width: 50px;
+    display: block;
+    margin-bottom: 5px;
+
+}
+
+#option #bg1{
+    background-color: #22235F;
+}
+
+#option #bg2{
+    background-color: #ce4420;
+}
+
+#option #bg3{
+    background-color: #fca311;
+}
+
+#option #bg4{
+    background-color: blue;
+}
+
+#option #bg5{
+    background-color: cyan;
+}
+
+#option #bg6{
+    background-image: url(https://img.freepik.com/free-photo/abstract-dark-background-with-flowing-colouful-waves_1048-13124.jpg);
+    background-size: cover;
+}
+
+#option #bg7{
+    background-image: url(https://img.freepik.com/free-photo/abstract-smoke-wallpaper-background-desktop_53876-128249.jpg);
+    background-size: cover;
+}
